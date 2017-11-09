@@ -3,15 +3,15 @@ A simple python crawler with BFS and Pagerank based priority queue. The project 
 
 py_crawler.py: Python script for crawler which could be run as 
 
->> python py_crawler.py
+**>> python py_crawler.py**
 
 Beware that the program would require an API key from bing. You can find one at azure.com
 
 It takes the following three inputs:
 
-search_term: the query for the focused crawler
-Method: bfs or pagerank
-num_pages: Number of pages to be crawled
+*search_term*: the query for the focused crawler
+*Method*: bfs or pagerank
+*num_pages*: Number of pages to be crawled
 
 The python script was used to generate the following four logs:
 
@@ -41,7 +41,7 @@ Get Links	                    Parsed the html file for links			              Bea
 validate_links	              Makes sure only html files are crawled		        None
 max_per_domain	              Rate Control					                            tldextract
 
-**Non Working Features:
+**Non Working Features**:
 2. Haven’t catered to cased where cis.poly.edu is same as csserv2.poly.edu
 
 **Bugs (or not):**
