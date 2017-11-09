@@ -26,6 +26,7 @@ Each of the log files contain 1000 crawled urls and other relevant information.
 The python crawler has two settings
 
 **1. BFS:** Uses a simple queue and crawls pages according to the BFS algorithm
+
 **2. Page Rank:** Maintains a priority queue running page rank on graph each time after crawling 30 urls
 
 Major Functions:
