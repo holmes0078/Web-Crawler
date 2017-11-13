@@ -31,7 +31,8 @@ The python crawler has two settings
 
 **2. Page Rank:** Maintains a priority queue running page rank on graph each time after crawling 30 urls
 
-Major Functions:
+**Major Functions:**
+
 
 |   Function Name	   |                Description					       |      Library Used        |
 | ------------------ | ----------------------------------------- | ------------------------ |
@@ -45,5 +46,6 @@ Major Functions:
 | max_per_domain	   |   Rate Control					                   |   tldextract             | 
 
 **Non Working Features**:
-2. Haven’t catered to cased where cis.poly.edu is same as csserv2.poly.edu
+
+Haven’t catered to cased where cis.poly.edu is same as csserv2.poly.edu
 
