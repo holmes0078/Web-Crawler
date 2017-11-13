@@ -47,8 +47,3 @@ Major Functions:
 **Non Working Features**:
 2. Haven’t catered to cased where cis.poly.edu is same as csserv2.poly.edu
 
-**Bugs (or not):**
-1. No special code for handing redirects (assignment doesn’t mention such cases but students were discussing it on Piazza) 
-2. Some parts of the code are not scalable like the use of stop words
-3. Rate Control can be buggy
-
