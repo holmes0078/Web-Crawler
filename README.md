@@ -9,11 +9,11 @@ Beware that the program would require an API key from bing. You can find one at 
 
 It takes the following three inputs:
 
-*search_term*: the query for the focused crawler
+**search_term**: the query for the focused crawler
 
-*Method*: bfs or pagerank
+**Method**: bfs or pagerank
 
-*num_pages*: Number of pages to be crawled
+**num_pages**: Number of pages to be crawled
 
 The python script was used to generate the following four logs:
 
