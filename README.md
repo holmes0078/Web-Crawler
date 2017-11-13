@@ -33,15 +33,16 @@ The python crawler has two settings
 
 Major Functions:
 
-**Function Name	                Description					                              Library Used**
-get_seed	Gets                first 10 links from Bing			                    PyBing
-can_fetch_url	                Checks robots.txt for access allowance		        Python RobotExclusion
-save_file	Saves               html contents of crawled urls		                  Python urllib
-Save_file	                    Catches various HTTP Error Codes		              Python urllib.HTTPError
-Normalize	                    Normalizes url and adds scheme (‘http’)		        Python urlnorm
-Get Links	                    Parsed the html file for links			              BeautifulSoup
-validate_links	              Makes sure only html files are crawled		        None
-max_per_domain	              Rate Control					                            tldextract
+|   Function Name	   |                Description					       |      Library Used        |
+| ------------------ | ----------------------------------------- | ------------------------ |
+| get_seed	Gets     |   first 10 links from Bing			           |   PyBing                 |
+| can_fetch_url	     |   Checks robots.txt for access allowance	 |	 Python RobotExclusion  | 
+| save_file	Saves    |   html contents of crawled urls		       |   Python urllib          | 
+| Save_file	         |   Catches various HTTP Error Codes		     |   Python urllib.HTTPError|
+| Normalize	         |   Normalizes url and adds scheme (‘http’) |	 Python urlnorm         | 
+| Get Links	         |   Parsed the html file for links			     |   BeautifulSoup          | 
+| validate_links	   |   Makes sure only html files are crawled	 |	 None                   |
+| max_per_domain	   |   Rate Control					                   |   tldextract             | 
 
 **Non Working Features**:
 2. Haven’t catered to cased where cis.poly.edu is same as csserv2.poly.edu
